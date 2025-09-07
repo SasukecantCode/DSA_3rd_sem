@@ -1,0 +1,15 @@
+ldc -9
+istore 0
+iload 0
+ifgt 4
+iload 0
+ifeq 7
+ldc -1
+print
+halt
+ldc 1
+print
+halt
+ldc 0
+print
+halt

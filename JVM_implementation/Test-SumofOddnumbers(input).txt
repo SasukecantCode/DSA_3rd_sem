@@ -1,0 +1,31 @@
+read #from
+istore 0
+ldc 0
+istore 1
+iload 0
+read #till
+isub
+ifle 18
+iload 0
+ldc 2
+idiv
+ldc 2
+imul
+iload 0
+isub
+ifeq 6
+iload 1
+iload 0
+iadd
+istore 1
+iload 0
+ldc 1
+iadd
+istore 0
+iload 0
+read #till
+isub
+iflt -12
+iload 1
+print
+halt

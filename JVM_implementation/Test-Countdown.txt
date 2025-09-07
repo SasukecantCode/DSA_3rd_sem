@@ -1,0 +1,13 @@
+ldc 9
+istore 0
+iload 0
+ifeq 10
+iload 0
+print
+iload 0
+ldc 1
+isub
+istore 0
+iload 0
+ifgt -6
+halt

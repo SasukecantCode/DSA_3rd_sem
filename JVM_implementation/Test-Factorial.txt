@@ -1,0 +1,19 @@
+ldc 6
+istore 0
+ldc 1
+istore 1
+iload 0
+ifeq 12
+iload 1
+iload 0
+imul
+istore 1
+iload 0
+ldc 1
+isub
+istore 0
+iload 0
+ifgt -9
+iload 1
+print
+halt
